@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <>
-      <TodoListHead>나만의 todo리스트</TodoListHead>
+      <TodoListHead>나만의 todo리스트 안 만들기</TodoListHead>
       <TodoInput addTodo={addTodo} />
       <TodoList todoList={todoList} deleteTodo={deleteTodo} />
     </>
